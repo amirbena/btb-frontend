@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# React.js Express Backend - Rick And Morty API
+- This project provides a Node.js backend API built with Express & TypeScript.
+It's Uses JWT For Authenticating Users And Give authencated Data manipulation for BTB Exercise in Node.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How To Use This Project
+1. Run `git clone` to clone the repository to your local Machine.
+2. Run `npm install` to install all dependencies of the project.
+3. Run `npm start` to Use this Backend in PORT of .production.env (3001- **don't change environement varaibles- It's makes project unavaible to use**)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Sign In for *Regular* User
+``
+UserName: amir12061969@gmail.com
+Password:Amirbena1204
+``
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## SignIn for *ADMIN* User
+``
+UserName: amir12061970@gmail.com
+Password:Amirbena1205
+``
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## There are A Results and button to navigate In app, This is Basic UX/UI.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

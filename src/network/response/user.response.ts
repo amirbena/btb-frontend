@@ -7,3 +7,8 @@ export interface User {
     isAdmin: boolean;
     _id: Types.ObjectId
 }
+
+export interface UserResponse {
+    user: User,
+    token: string;
+}

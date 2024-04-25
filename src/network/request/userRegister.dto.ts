@@ -1,13 +1,11 @@
-import { IsEmail, IsNotEmpty, IsString, MAX_LENGTH, MaxLength } from "class-validator";
-import { MAX_EMAIL_LENGTH, MAX_PASSWORD_LENGTH } from "./userLogin.dto";
+import { IsEmail, IsNotEmpty, IsString, MaxLength } from "class-validator";
+import { MAX_EMAIL_LENGTH, MAX_PASSWORD_LENGTH, UserLoginState } from "./userLogin.dto";
 
 
 export const MAX_NAME_LENGTH = 100;
 
-export interface UserRegisterState {
+export interface UserRegisterState extends UserLoginState {
     name: string;
-    email: string;
-    password: string;
 }
 
 export const initialRegisterState: UserRegisterState = {
